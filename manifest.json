@@ -9,21 +9,34 @@
     "default_popup": "popup.html"
   },
   "background": {
-    "scripts": ["background.js"],
+    "scripts": [
+      "background.js"
+    ],
     "persistent": false
   },
   "content_scripts": [
     {
-      "js": ["content.js"],
-      "matches": ["http://*/*", "https://*/*"]
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ]
     }
   ],
-  "web_accessible_resources": ["**/*.png", "**/*.jpg"],
+  "web_accessible_resources": [
+    "**/*.png",
+    "**/*.jpg"
+  ],
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "permissions": ["tabs", "storage"],
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
   "content_security_policy": "script-src 'self'; object-src 'self'"
 }
