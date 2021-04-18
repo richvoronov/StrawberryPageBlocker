@@ -1,5 +1,5 @@
 # StrawberryPageBlocker
-Awesome strawberry extension for Google Chrome, you should try it! Better than drugs!
+Strawberry extension for Google Chrome.
 
 ## Description.
 This extension allows you to block pages for a while. But if you really need access to the site at the moment, you need to answer the question and choose the access time!
